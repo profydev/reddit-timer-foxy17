@@ -7,7 +7,9 @@ function App() {
       <div>Main</div>
       <Switch>
         <Route path="/" />
-        <Route path="/search" />
+        <Route path="/search">
+          Search
+        </Route>
       </Switch>
     </Router>
   );
